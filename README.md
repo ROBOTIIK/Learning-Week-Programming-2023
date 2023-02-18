@@ -2,7 +2,7 @@
 Repository ini akan digunakan sebagai tempat pengumpulan tugas selama proses Learning Week 2023 divisi Programming.
 
 ## Tugas Pertama
-1. Buatlah branch baru dengan nama branch `[Divisi Programming Pilihan] - [Nama Panggilan]`.
+1. Buatlah branch baru dengan nama branch `[Divisi Programming Pilihan]-[Nama Panggilan]`.
 2. Edit README.md ini di branch kalian menjadi:
 
 ```
