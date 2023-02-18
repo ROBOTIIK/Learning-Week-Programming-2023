@@ -2,17 +2,17 @@
 Repository ini akan digunakan sebagai tempat pengumpulan tugas selama proses Learning Week 2023 divisi Programming.
 
 ## Tugas Pertama
-1. Buatlah branch baru dengan nama branch `[Divisi Programming Pilihan] - [Nama Panggilan]`.
+1. Buatlah branch baru dengan nama branch `Vision Motion - Afta`.
 2. Edit README.md ini di branch kalian menjadi:
 
 ```
-# [Nama Lengkap] - [NIM]
+# M Alfian Taftazani - 225150300111007
 ## Perkenalan
-Halo, saya [Nama Panggilan] dari [prodi][tahun angkatan].
+Halo, saya Afta dari Teknik Komputer 2022.
 ## Divisi
 Saya mendaftar di divisi:
-- [divisi pilihan 1]
-- [divisi pilihan 2]
+- Vision Programming
+- Motion Programming
 ```
 
 ## Tugas-Tugas Lainnya
