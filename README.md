@@ -3,5 +3,5 @@
 Halo, saya Azhar dari Teknik Komputer 2021.
 ## Divisi
 Saya mendaftar di divisi:
-Electrical
-Programming Motion
+- Electrical
+- Programming Motion
