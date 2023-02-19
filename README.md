@@ -1,4 +1,4 @@
-```
+
 # Muhammad Aldo Aufa Rizki - 215150307111027
 ## Perkenalan
 Halo, saya Aldo dari Teknik Komputer 2021.
@@ -6,4 +6,3 @@ Halo, saya Aldo dari Teknik Komputer 2021.
 Saya mendaftar di divisi:
 - Vision Programming
 - Motion Programming
-```
