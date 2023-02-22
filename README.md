@@ -6,13 +6,13 @@ Repository ini akan digunakan sebagai tempat pengumpulan tugas selama proses Lea
 2. Edit README.md ini di branch kalian menjadi:
 
 ```
-# [Nama Lengkap] - [NIM]
+# Archie Vian Nizam Efendi - 225150701111022
 ## Perkenalan
-Halo, saya [Nama Panggilan] dari [prodi][tahun angkatan].
-## Divisi
+Halo, saya Archie dari Teknologi Informasi 2022.
+## vision
 Saya mendaftar di divisi:
-- [divisi pilihan 1]
-- [divisi pilihan 2]
+- Elektronika
+- Programming Vision
 ```
 
 ## Tugas-Tugas Lainnya
