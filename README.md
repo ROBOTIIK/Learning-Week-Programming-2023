@@ -5,5 +5,3 @@ Halo, saya Archie dari Teknologi Informasi 2022.
 Saya mendaftar di divisi:
 - Elektronika
 - Programming Vision
-```
-
