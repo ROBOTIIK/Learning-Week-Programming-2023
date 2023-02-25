@@ -8,7 +8,10 @@ while loop_trigger != 0:
         if user_input == '0':
             loop_trigger = 0
         else:
-            sum = sum + (int(user_input)*int(user_input))    
+            if int(user_input) % 2 == 0:
+                sum = sum + (int(user_input)*int(user_input))
+            else:
+                pass    
     else:
         print(f"Error: '" + user_input + "' is not a valid number. Please try again.")
 
