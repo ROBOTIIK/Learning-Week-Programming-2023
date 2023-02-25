@@ -1,10 +1,10 @@
 # Learning-Week-Programming-2023
 Repository ini akan digunakan sebagai tempat pengumpulan tugas selama proses Learning Week 2023 divisi Programming.
 
-**Bagi yang belum, silakan mengisi [Gform ini]() agar dapat mengedit langsung repository ini. Jangan lakukan fork/pull request.**
+**Bagi yang belum, silakan mengisi [Gform ini](https://forms.gle/iJdF3xTUtCQek65b9) agar dapat mengedit langsung repository ini. Jangan lakukan fork/pull request.**
 
-**Sangat direkomendasikan untuk membaca PPT materi mengenai Git ini terlebih dahulu, terutama bagi yang tidak hadir pada pertemuan learning week pertama yang membahas materi ini.**
-[PPT Materi Git](https://docs.google.com/presentation/d/1Wp8kBTa2sq6Y2aOkkLFiAM60qpM_g5Qq/edit?usp=sharing&ouid=113951833262011292171&rtpof=true&sd=true)
+**Sangat direkomendasikan untuk membaca [PPT Materi mengenai Git ini](https://docs.google.com/presentation/d/1Wp8kBTa2sq6Y2aOkkLFiAM60qpM_g5Qq/edit?usp=sharing&ouid=113951833262011292171&rtpof=true&sd=true) terlebih dahulu, terutama bagi yang tidak hadir pada pertemuan learning week pertama yang membahas materi ini.**
+
 
 ## Tugas Pertama
 **WAJIB MENGERJAKAN TUGAS INI TERLEBIH DAHULU**
