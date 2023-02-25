@@ -16,9 +16,12 @@ class CheckingAccount(Account):
         super().__init__(account_number, balance)
 
     def write_check(self, check_amount):
-        self.balance -= check_amount
-        Account.withdraw(self, check_amount)
-        self.transactions.append(f"Check: ${check_amount}")
+        if self.balance - check_amount >= 0:
+            self.balance -= check_amount
+            Account.withdraw(self, check_amount)
+            self.transactions.append(f"Check: ${check_amount}")
+        else:
+            print("Insufficient Balance")
 
 
 class SavingsAccount(Account):
