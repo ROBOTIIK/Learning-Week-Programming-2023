@@ -1,18 +1,10 @@
-# Learning-Week-Programming-2023
-Repository ini akan digunakan sebagai tempat pengumpulan tugas selama proses Learning Week 2023 divisi Programming.
-
-## Tugas Pertama
-1. Buatlah branch baru dengan nama branch `[Divisi Programming Pilihan]-[Nama Panggilan]`.
-2. Edit README.md ini di branch kalian menjadi:
-
-```
-# [Nama Lengkap] - [NIM]
+# [Roihaan Ramadhani] - [205150301111028]
 ## Perkenalan
-Halo, saya [Nama Panggilan] dari [prodi][tahun angkatan].
+Halo, saya Roihaan dari prodi Teknik Komputer angkatan 2020.
 ## Divisi
 Saya mendaftar di divisi:
-- [divisi pilihan 1]
-- [divisi pilihan 2]
+- Programming Vision
+- Programming Motion
 ```
 
 ## Tugas-Tugas Lainnya
