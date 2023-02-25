@@ -5,11 +5,9 @@ class Account:
         self.transactions = []
 
     def withdraw(self, withdraw_amount):
-        self.balance -= withdraw_amount
         self.transactions.append(f"Withdrawal: ${withdraw_amount}")
 
     def deposit(self, deposit_ammount):
-        self.balance += deposit_ammount
         self.transactions.append(f"Deposit: ${deposit_ammount}")
 
 
@@ -19,7 +17,7 @@ class CheckingAccount(Account):
 
     def write_check(self, check_amount):
         self.balance -= check_amount
-        self.transactions.append(f"Withdrawal: ${check_amount}")
+        Account.withdraw(self, check_amount)
         self.transactions.append(f"Check: ${check_amount}")
 
 
@@ -31,8 +29,7 @@ class SavingsAccount(Account):
     def calculate_interest(self):
         interest_amount = self.interest * self.balance
         self.balance += interest_amount
-
-        self.transactions.append(f"Deposit: ${interest_amount}")
+        Account.deposit(self, interest_amount)
         self.transactions.append(f"Interest: ${interest_amount}")
 
 
