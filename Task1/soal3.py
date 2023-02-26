@@ -3,25 +3,29 @@ class Akun:
     def __init__(self, account_number, balance):
         self.account_number = account_number
         self.balance = balance
-        
+        self.transaction = []
+
     def withdraw_money(self, amount):
         if amount < self.balance:
+            self.transaction = [f'Withdrawl = ${amount}']
             self.balance -= amount
         else:
             print('Insufficient amount')
     
     
     def deposit_money(self, amount):
+
+        self.transaction = [f'Deposit = ${amount}']
         self.balance += amount
        
 
 class CheckingAccount(Akun):
     def __init__(self, account_number, balance):
         super().__init__(account_number, balance)
-        self.transaction = []
 
     def write_check(self, amount):
         if amount <= self.balance:
+    
             self.transaction = [f'Withdrawl: ${amount}', f'Check: ${amount}' ]
             self.balance -= amount
         else:
@@ -31,7 +35,6 @@ class SavingAccount(Akun):
     def __init__(self, account_number, balance, interest):
         super().__init__(account_number, balance)
         self.interest = interest
-        self.transaction = []
         self.total_interest = 0
 
     def calculate_interest(self):
@@ -48,6 +51,7 @@ def main():
 
 
   checking.write_check(100.00)
+  checking.deposit_money(100.00)
   saving.calculate_interest()
 
   print(checking.account_number, checking.balance, checking.transaction)
