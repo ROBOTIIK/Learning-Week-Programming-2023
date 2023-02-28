@@ -1,4 +1,4 @@
-numbers = []
+git numbers = []
 while True:
     try:
         user_input = input("Masukkan angka (0 untuk berhenti): ")
