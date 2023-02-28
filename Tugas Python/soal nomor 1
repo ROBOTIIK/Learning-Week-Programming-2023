@@ -1,0 +1,17 @@
+numbers = []
+while True:
+    try:
+        user_input = input("Masukkan angka (0 untuk berhenti): ")
+        if user_input == "0":
+            break
+        number = int(user_input)
+        numbers.append(number)
+    except ValueError:
+        print("Anda harus memasukkan angka!")
+
+sum_of_squares = 0
+for number in numbers:
+    if number % 2 == 0:
+        sum_of_squares += number ** 2
+
+print("Jumlah kuadrat dari angka genap dalam daftar adalah:", sum_of_squares)
