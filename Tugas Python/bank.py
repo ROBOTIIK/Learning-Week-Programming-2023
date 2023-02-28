@@ -5,8 +5,11 @@ class BankAccount:
         self.transactions = []
 
     def withdrawal(self, amount):
-        self.balance -= amount
-        self.transactions.append(f"Withdrawal: ${amount:.2f}")
+        if amount > self.balance:
+            return print("Balance is not sufficient")
+        else:
+            self.balance -= amount
+            self.transactions.append(f"Withdrawal: ${amount:.2f}")
 
     def deposit(self, amount):
         self.balance += amount
@@ -15,7 +18,8 @@ class BankAccount:
 class CheckingAccount(BankAccount):
     def write_check(self, amount):
         self.withdrawal(amount)
-        self.transactions.append(f"Check: ${amount:.2f}")
+        if self.balance >= amount:
+            self.transactions.append(f"Check: ${amount:.2f}")
 
 class SavingsAccount(BankAccount):
     def __init__(self, account_number, balance, interest):
