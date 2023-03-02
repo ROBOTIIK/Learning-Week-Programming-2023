@@ -18,13 +18,13 @@ Repository ini akan digunakan sebagai tempat pengumpulan tugas selama proses Lea
     2. contoh: `git checkout Motion-Nathan` untuk pindah ke cabang itu
 3. Edit README.md ini di branch kalian menjadi:
 ```
-# [Nama Lengkap] - [NIM]
+# Made Wisnu Widana - 225150307111027
 ## Perkenalan
-Halo, saya [Nama Panggilan] dari [prodi][tahun angkatan].
+Halo, saya Made dari Teknik Komputer 2022.
 ## Divisi
 Saya mendaftar di divisi:
-- [divisi pilihan 1]
-- [divisi pilihan 2]
+- Mekanik
+- Vision
 ```
 4. Commit. Kalau tidak tahu cara melakukan ini, silakan lihat di PPT.
 5. Push ke github dengan `git push`
