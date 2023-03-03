@@ -1,9 +1,21 @@
 #include <iostream>
 #include "Robot.h"
+
 using namespace std;
 
+void Robot::init(){
+    int n, x, y;
+    cin>>n;
+    for (int i =0 ; i<n;i++){
+        cin >> x >> y;
+        arah(x, y);
+        setArah(x,y);
+    }
+    akhir();
+}
+
 void Robot::arah(int x, int y){
-    
+
     if(y==0){
         if(x>0){cout<<"TIMUR\n";}
         else if (x<0){cout<<"BARAT\n";}
