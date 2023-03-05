@@ -1,5 +1,5 @@
 nilai = []
-value 
+value = 0
 
 while (True):
     try:
