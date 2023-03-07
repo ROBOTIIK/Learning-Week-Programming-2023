@@ -18,6 +18,5 @@ int main(){
 		
 	}
 	alpha.getlocation();
-	system("pause");
 	
 }
