@@ -3,7 +3,7 @@
 
 int main(){
     int n, x, y;
-    Robot Wall_E;
+    Robot Wall_E(0,0);
     std::cin >> n;
 
     for(int i = 0; i < n; i++){

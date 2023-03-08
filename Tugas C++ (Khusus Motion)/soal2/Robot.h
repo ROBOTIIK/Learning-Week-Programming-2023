@@ -4,7 +4,7 @@
 class Robot
 {
 public:
-    Robot(int koordinatX = 0, int koordinatY = 0);
+    Robot(int koordinatX, int koordinatY);
     int getKoordinatX();
     int getKoordinatY();
     void setKoordinat(int x, int y);
