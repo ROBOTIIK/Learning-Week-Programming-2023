@@ -5,3 +5,4 @@ Halo, saya Ivan dari Teknik Komputer 2022.
 Saya mendaftar di divisi:
 - Vision Programming
 - Motion Programming
+
