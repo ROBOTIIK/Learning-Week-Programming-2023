@@ -36,7 +36,7 @@ Saya mendaftar di divisi:
 ## Tugas-Tugas Lainnya
 Untuk tugas-tugas berikutnya, nanti akan muncul folder baru untuk pengerjaan tugas itu di cabang main. Lakukanlah langkah-langkah berikut:
 1. Jalankan perintah `git fetch`
-2. Ketika berada di branch kalian, lakukan `git merge main`. Itu akan memunculkan folder tugas itu ke branch kalian, tetapi akan menyebabkan conflict dengan README.md yang utama. Buka file README.md-nya, lalu hapus saja isi README.md yang dari cabang main.
+2. Ketika berada di branch kalian, lakukan `git merge origin/main`. Itu akan memunculkan folder tugas itu ke branch kalian, tetapi akan menyebabkan conflict dengan README.md yang utama. Buka file README.md-nya, lalu hapus saja isi README.md yang dari cabang main.
 3. Kerjakan tugas sesuai perintah dalam folder itu di branch kalian
 4. Commit apabila tugas sudah selesai
 5. Lakukan `git push` untuk menyimpan hasil kerja kalian di github
