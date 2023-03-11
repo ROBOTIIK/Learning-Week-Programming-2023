@@ -5,5 +5,3 @@ Halo, saya Eldon dari Tekkom21.
 Saya mendaftar di divisi:
 - Electrical
 - Vision Programming
-
-
