@@ -1,6 +1,8 @@
 # Tugas OpenCV (Khusus Vision)
 **Tugas ini khusus untuk pendaftar divisi Vision Programming. Namun, tidak apa-apa apabila pendaftar Motion juga mau mengerjakan.**
 
+**Dapat dilihat dalam notebook python denga nama file _Blur plat Nomor.ipynb_**
+
 Kerjakanlah tugas berikut sesuai instruksi.
 
 ## Instruksi
