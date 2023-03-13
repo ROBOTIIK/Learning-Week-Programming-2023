@@ -1,0 +1,24 @@
+class filkomub:
+  def __init__(self, name, id_number):
+    self.name = name
+    self.id_number = id_number
+
+
+class Student(filkomub):
+    def __init__(self, name, id_number, courses):
+      filkomub.__init__(self, name, id_number)
+      self.courses = courses
+      
+
+class Professor(filkomub):
+    def __init__(self, name, id_number, courses_taught):
+      filkomub.__init__(self, name, id_number)
+      self.courses_taught = courses_taught
+
+
+s = Student("Alice", 1234, ["Introduction to Computer Science", "Data Structures"])
+p = Professor("Bob", 5678, ["Database Systems", "Web Development"])
+
+print(s.name, s.id_number, s.courses)
+print(p.name, p.id_number, p.courses_taught)
+
